@@ -1064,6 +1064,51 @@ deps_simulated_device.o := \
   /usr/src/linux-headers-6.14.0-36-generic/include/linux/string_choices.h \
   /usr/src/linux-headers-6.14.0-36-generic/include/linux/proc_fs.h \
     $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/device.h \
+    $(wildcard include/config/HAS_IOMEM) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/ARCH_HAS_DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/SWIOTLB_DYNAMIC) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/DMA_NEED_SYNC) \
+    $(wildcard include/config/IOMMU_DMA) \
+    $(wildcard include/config/PM_SLEEP) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/dev_printk.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/energy_model.h \
+    $(wildcard include/config/SCHED_DEBUG) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/sched/cpufreq.h \
+    $(wildcard include/config/CPU_FREQ) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/sched/topology.h \
+    $(wildcard include/config/SCHED_CLUSTER) \
+    $(wildcard include/config/SCHED_MC) \
+    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/sched/idle.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/sched/sd_flags.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/ioport.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/klist.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/pm.h \
+    $(wildcard include/config/VT_CONSOLE_SLEEP) \
+    $(wildcard include/config/CXL_SUSPEND) \
+    $(wildcard include/config/PM) \
+    $(wildcard include/config/PM_CLK) \
+    $(wildcard include/config/PM_GENERIC_DOMAINS) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/device/bus.h \
+    $(wildcard include/config/ACPI) \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/device/class.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/device/driver.h \
+  /usr/src/linux-headers-6.14.0-36-generic/arch/x86/include/asm/device.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/pm_wakeup.h \
+  /usr/src/linux-headers-6.14.0-36-generic/include/linux/cdev.h \
 
 simulated_device.o: $(deps_simulated_device.o)
 
